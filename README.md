@@ -15,3 +15,8 @@ Open the folder in Android Studio, or from the command line (Android SDK require
     ./gradlew assembleDebug      # APK in app/build/outputs/apk/debug/
     ./gradlew installDebug       # install on a connected device/emulator
     ./gradlew test               # unit tests for the deck logic
+
+## CI
+
+Every push and pull request runs the unit tests and builds a debug APK on GitHub Actions.
+Download it from the run's **Artifacts** section (`CardDeck-debug-apk`).
